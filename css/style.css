@@ -24,3 +24,23 @@ header {
 .title {
     font-size: 26px;
 }
+
+/* // estilo caixa lateral/direita // */
+.formContainer {
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+input, select {
+    width: 100%;
+    box-sizing:border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom:  10px;
+}
