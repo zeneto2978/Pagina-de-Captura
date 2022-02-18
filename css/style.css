@@ -13,6 +13,14 @@ body {
     margin: auto;
 }
 
+section {
+    padding: 20px;
+    background-image: url('../img/people.jpg');
+    float: none;
+    background-size: cover;
+    overflow: hidden;
+}
+
 
 header {
     color: #fff;
@@ -44,3 +52,42 @@ input, select {
     border: none;
     margin-bottom:  10px;
 }
+
+input[type="submit"]{
+    color: #fff;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+
+select {
+        /* P/ inserir a seta na busca do Estado */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+        /* Terminha aqui */
+
+        /* Inserir e Ajustes na Seta */
+    background-image: url('../img/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center ;
+        /* Termina aqui */
+}
+
+footer {
+    padding: 40px;
+}
+
+.picture {
+    width: 160px;
+}
+
+.description {
+    display:inline-block;
+    color: #fff;
+    max-width: 40%;
+    margin-left: 40px;
+
+}
+
