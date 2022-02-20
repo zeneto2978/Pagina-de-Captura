@@ -35,7 +35,8 @@ header {
 
 /* // estilo caixa lateral/direita // */
 .formContainer {
-    max-width: 230px;
+    /* max-width: 230px; */
+    width: 34.333%;
     background-color: #ffffffbb;
     padding: 20px;
     float: right;
@@ -95,5 +96,11 @@ footer {
 
 .description h3 {
     font-size: 24px;
+}
+
+@media (max-width: 600px) {
+    .formContainer {
+        width: 90%;
+    }
 }
 
