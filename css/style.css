@@ -1,102 +1,99 @@
-
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(82, 80, 80);
-   
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(82, 80, 80);
 }
 
 .container {
-    max-width: 1000px;
-    margin: auto;
+  width: 100%;
+  height: 100%;
+  margin: auto;
 }
 
 section {
-    padding: 20px;
-    background-image:  url('../img/imagem1.jpg');
-    float: none;
-    background-size: cover;
-    overflow: hidden;
+  padding: 20px;
+  background-image: url("../img/imagem1.jpg");
+  float: none;
+  background-size: cover;
+  overflow: hidden;
 }
 
-
 header {
-    color: #fff;
-    background-color: aqua;
-    text-align:left;
-    padding: 10px;
+  color: #fff;
+  background-color: aqua;
+  text-align: left;
+  padding: 10px;
 }
 
 .title {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 /* // estilo caixa lateral/direita // */
 .formContainer {
-    /* max-width: 230px; */
-    width: 34.333%;
-    background-color: #ffffffbb;
-    padding: 20px;
-    float: right;
+  /* max-width: 230px; */
+  width: 34.33%;
+  background-color: #ffffffbb;
+  padding: 20px;
+  float: right;
 }
 
 h2 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
-input, select {
-    width: 100%;
-    box-sizing:border-box;
-    padding: 10px;
-    border: none;
-    margin-bottom:  10px;
+input,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
 }
 
-input[type="submit"]{
-    color: #fff;
-    background-color: aqua;
-    font-weight: bold;
+input[type="submit"] {
+  color: #fff;
+  background-color: aqua;
+  font-weight: bold;
 }
-
 
 select {
-        /* P/ inserir a seta na busca do Estado */
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-        /* Terminha aqui */
+  /* P/ inserir a seta na busca do Estado */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Terminha aqui */
 
-        /* Inserir e Ajustes na Seta */
-    background-image: url('../img/arrow.jpg');
-    background-repeat: no-repeat;
-    background-position-x: calc(100% - 10px);
-    background-position-y: center ;
-        /* Termina aqui */
+  /* Inserir e Ajustes na Seta */
+  background-image: url("../img/arrow.jpg");
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: center;
+  /* Termina aqui */
 }
 
 footer {
-    padding: 40px;
-    text-align: center;
+  padding: 40px;
+  text-align: center;
 }
 
 .picture {
-    width: 160px;
+  width: 160px;
 }
 
 .description {
-    display:inline-block;
-    text-align: left;
-    color: #fff;
-    max-width: 40%;
-    margin-left: 40px;
-
+  display: inline-block;
+  text-align: left;
+  color: #fff;
+  max-width: 40%;
+  margin-left: 40px;
 }
 
 .description h3 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 @media (max-width: 600px) {
-    .formContainer {
-        width: 90%;
-    }
+  .formContainer {
+    width: 90%;
+  }
 }
